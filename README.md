@@ -2,10 +2,10 @@
 
 A tiny Windows tray app that watches keyboard/mouse activity and nudges you to stand up after a configurable stretch of continuous work.
 
-## Status Preview
+## App Demo
 
 <p align="center">
-	<img src="docs/media/app-states.svg" width="900" alt="Animated preview of Don't Seat 1h working, break, and snoozed states" />
+	<img src="docs/media/app-states.gif" width="900" alt="Animated preview of Don't Seat 1h working, break, and snoozed states" />
 </p>
 
 ## Features
@@ -16,7 +16,6 @@ A tiny Windows tray app that watches keyboard/mouse activity and nudges you to s
 - A cat tray icon remains available as the right-click menu entry point: typing while working, grayscale while idle, and a red pause badge while snoozed.
 - Away detection resets the timer after 5 minutes of no keyboard/mouse input by default.
 - Right-click menu: current chair time, snooze/resume, settings, and quit.
-- Configurable thresholds are stored at `%APPDATA%/dont_seat_1h/config.json`.
 
 ## Run
 ```
